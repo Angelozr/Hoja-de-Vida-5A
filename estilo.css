@@ -1,0 +1,182 @@
+/*Margen y relleno de la pagina*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Ajustes especiales del body con lo que va dentro*/
+body {
+  background: radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg,transparent 74px,transparent 75px,
+ #ffffff 75px, #ffffff 76px,transparent 77px,transparent 109px),
+}
+/*Ajustes del titulo de la pagina llamada HOJA DE VIDA*/
+header h1 {
+  background-color: #00cdec;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+/*Modificaciones especiales del contenedor primero dentro de body*/
+.contenedor {
+  background: rgb(0, 204, 255);
+  top: 0 auto;
+  width: 500%;
+  padding: 3px;
+  max-width: 1000px;
+  margin: 1.6em auto;
+  display: grid;
+  gap: 1.6em;
+  grid-template-columns: 1fr;
+}
+/*Posicion, tamaño y color de fondo del cuadro de Datos personales*/
+.datospersonales {
+  background: rgb(213, 213, 213);
+  height: 300px;
+  position:  center; 
+}
+/*Titulo de Datos personales*/
+.titulo1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 300%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 5px 5px rgb(0, 0, 0);
+}
+/*Tamaño de letra Datos personales, etc*/
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100%;
+  padding: 0.5em;
+}
+/*Ajustes del contenedor 1*/
+.contenedor1 {
+  width: 500%;
+  max-width: 1000px;
+  margin: 1em auto;
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 50% 50%;
+}
+/*Opciones de ajustes de Estudios*/
+.estudios {
+  width: 83%;
+  background: rgb(153, 243, 153);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  padding: 2em;
+}
+/*Color del fondo de Estudios*/
+.estudios:hover {
+  background-color: rgb(98, 250, 98);
+}
+/*Titulo de Estudios*/
+.titulo2 {  
+  color: darkred;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 0px 0px 20px 0px;
+}
+/*Opciones de estudios realizados*/
+li {
+  padding: 0.5em;
+}
+/*Ajustes del cuadro de experiencias*/
+.experiencia {
+  width: 84%;
+  background: rgb(216, 228, 148);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  padding: 2em;
+}
+/*Color del contenedor de Experiencias laborales*/
+.experiencia:hover {
+  background-color: rgb(253, 251, 94);
+}
+/*Titulo de experiencias laborales*/
+.titulo3 {
+  color: darkred;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 0px 0px 20px 0px;
+  text-align: center;
+}
+
+
+/*Contenedor de capacitaciones con sus opciones*/
+.capacitaciones {
+  width: 870px;
+  background: rgb(193, 164, 248);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  position:  center;
+  text-align: left;
+  padding: 4em;
+}
+/*Color de fondo*/
+.capacitaciones:hover {
+  background-color: rgb(182, 71, 247);
+}
+
+/*Titulo de Capacitaciones*/
+.titulo5 {
+  color: darkred;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  padding: 0px 0px 20px 0px;
+}
+
+/*Titulo de referencias personales*/
+.titulo6 {
+  color: darkred;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 0.25em;
+}
+.related-post {
+  background: rgb(255, 255, 255);
+  width: 90%;
+  border: 2px solid red;
+  border-radius: 20px;
+  max-width: 1000px;
+  margin: 1.9em auto;
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 33% 33% 33%;
+}
+
+
+/*Modificaciones especiales para la Tarjeta de nuestra foto personal*/
+.card {
+  height: 200px;
+  width: 190px;
+  background: #808080;
+  border-radius: 5px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 700px 69px -60px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: translate(390%, 0%);
+}
+/*Foto personal 1*/
+.card {
+  background: url("https://scontent.fmec2-1.fna.fbcdn.net/v/t39.30808-6/314534768_667953554932927_7627937441043181096_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_ohc=4_-qLL4qkcwAX-iSUyw&_nc_ht=scontent.fmec2-1.fna&oh=00_AfBFK2BC_Ng6AtT3GxdGNy3G_eWnhYvmpLX38-UXvAIUWw&oe=642FF644") center;
+  background-size: 210px;
+}
+/*Foto personal 2*/
+.card:hover {
+  background: url("https://scontent.fmec2-1.fna.fbcdn.net/v/t39.30808-6/318748712_690572032671079_8810298472179491191_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=lE81iMBrf60AX9kdrKs&_nc_ht=scontent.fmec2-1.fna&oh=00_AfAQrp718wsOVln2gEKXWyxAI7NoZ1_THwB30xVBOo1sGQ&oe=6430939A") center;
+  background-size: 200px;
+  }
