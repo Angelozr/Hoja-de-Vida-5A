@@ -172,11 +172,11 @@ li {
 }
 /*Foto personal 1*/
 .card {
-  background: url("https://scontent.fmec2-1.fna.fbcdn.net/v/t39.30808-6/314534768_667953554932927_7627937441043181096_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_ohc=4_-qLL4qkcwAX-iSUyw&_nc_ht=scontent.fmec2-1.fna&oh=00_AfBFK2BC_Ng6AtT3GxdGNy3G_eWnhYvmpLX38-UXvAIUWw&oe=642FF644") center;
+  background: url("https://scontent.fmec2-1.fna.fbcdn.net/v/t39.30808-6/314534768_667953554932927_7627937441043181096_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_ohc=nYLdJYGpXrEAX81pg8i&_nc_ht=scontent.fmec2-1.fna&oh=00_AfBdiXd1EcuY0DTeDIKveD-killTNyHXoQRjqtLiON3yDw&oe=643DCE04") center;
   background-size: 210px;
 }
 /*Foto personal 2*/
 .card:hover {
-  background: url("https://scontent.fmec2-1.fna.fbcdn.net/v/t39.30808-6/318748712_690572032671079_8810298472179491191_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=lE81iMBrf60AX9kdrKs&_nc_ht=scontent.fmec2-1.fna&oh=00_AfAQrp718wsOVln2gEKXWyxAI7NoZ1_THwB30xVBOo1sGQ&oe=6430939A") center;
+  background: url("https://scontent.fmec2-1.fna.fbcdn.net/v/t39.30808-6/318748712_690572032671079_8810298472179491191_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=_PX9mR-xgMsAX_Lyvqq&_nc_ht=scontent.fmec2-1.fna&oh=00_AfDD9_icxBKJ-qTB3_88mJQRvfIzeZIpZK9J4CSf6TY2aA&oe=643C711A") center;
   background-size: 200px;
   }
